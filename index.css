@@ -1,0 +1,115 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Montserrat;
+}
+body {
+    margin: 0;
+    background-color: grey;
+    padding: 1.5em;
+}
+#container {
+    background-color: white;
+    width: 53em;
+    margin: 0 auto;
+    padding: 2em;
+}
+.heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.2em;
+}
+.naming {
+    line-height: 0.3;
+}
+.detail-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.info {
+    padding: 0.2em;
+    margin-bottom: .3em;
+    font-size: .9em;
+}
+i {
+    margin-left: 1em;
+}
+/* /////////////////////////////////////////////////////////// */
+
+.experience-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em 1.2em;
+}
+.left-section {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  
+}
+.exp-subtitle {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-left: .5em;
+}
+
+
+
+.global-icon {
+    display: block;
+    padding: 0.3em;
+    background-color:rgb(14, 143, 98);
+    color: white;
+   
+}
+.exp-inner {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.exp-right {
+    width: 70%
+}
+.exp-left {
+    width: 20%
+}
+.score-size-green {
+    display: inline-block;
+    width: .8em;
+    height: .8em;
+    background-color: rgb(14, 143, 98);
+}
+.score-size-grey {
+    display: inline-block;
+    width: .8em;
+    height: .8em;
+    background-color: grey;
+}
+
+/* /////////////////////// */
+
+.right-section {
+    width: 25%;
+}
+.exp-inner-skills {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: .3em 0;
+}
+.sponsor {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+}
