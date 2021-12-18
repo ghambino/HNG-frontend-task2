@@ -163,11 +163,11 @@ i {
         padding: 1em 1.2em;
     }
     .left-section {
-        width: 95%;
+        width: 100%;
         /* flex: 1; */
     }
     .right-section {
-        width: 90%;
+        width: 100%;
     }
     .sponsor {
         flex-wrap: wrap;
